@@ -1,11 +1,30 @@
-# SnowyOwl-Code-Snippets
-A website where users can add and edit code snippets, so they can use it to remember code and prepare for exams and interviews.
+# Module 2 Group Assignment
 
-App Link: https://snowyvue-80f93.web.app
+
+CSCI 5117, Spring 2022, [assignment description](https://canvas.umn.edu/courses/291031/pages/project-2)
+
+## App Info:
+
+* Team Name: Snowyowl
+* App Name: SnowyOwl Snippets
+* App Link: https://snowyvue-80f93.web.app
+* Github Branch: Release
+* Github Link：https://github.com/csci-5117-S22/project-2-snowyowl/tree/Release
+
+### Students
+
+* Zhou Zhuang, zhuan156@umn.edu
+* Ke Wang, wan00802@umn.edu
+* Haoyu Tan, tan00213@umn.edu
+* Ruijun Ni nee00011@umn.edu
+* Chi Zhang, zhan6052@umn.edu
+
 
 ## Key Features
 
-* Golia instant search : It can quickly build a search interfece, and retrieve data intelligently. But the disadvantage is that if new data is added into the firebase dataset, it needs to spend a little time to transfer the new data to its own dataset. Thus, we have to add a loading stage to wait for it.
+**Describe the most challenging features you implemented
+(one sentence per bullet, maximum 4 bullets):**
+* Golia instnt search : It can quickly build a search interfece, and retrieve data intelligently. But the disadvantage is that if new data is added into the firebase dataset, it needs to spend a little time to transfer the new data to its own dataset. Thus, we have to add a loading stage to wait for it.
 
 
 * Highlight.js
@@ -40,7 +59,7 @@ Which (if any) progressive web app feature(s) does your app support?
 
 
 
-<!-- ## Testing Notes
+## Testing Notes
 
 **Is there anything special we need to know in order to effectively test your app? (optional):**
 
@@ -52,7 +71,7 @@ git clone --branch Release git@github.com:csci-5117-S22/project-2-snowyowl.git
 cd project-2-snowyowl-Release
 
 ./node_modules/.bin/eslint --init&&npm install&&npm run serve
-``` -->
+```
 
 
 
@@ -103,3 +122,9 @@ Please do not document required libraries (e.g., Vue, Vuefire, Firebase).**
 * Monaco-editor : The Monaco Editor is the code editor that powers VS Code.
 * Algolia : it provides the instant search function. 
 * Bulma.css : it provides ready-to-use frontend components.
+
+**If there's anything else you would like to disclose about how your project
+relied on external code, expertise, or anything else, please disclose that
+here:**
+
+...
